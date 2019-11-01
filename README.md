@@ -20,3 +20,25 @@ Which stylesheet format would you like to use? SCSS
 #### 6 - To run the Angular Project on the localhost 
 `ng serve -o`
 
+#### In Angular, we have components 
+In each component we have 
+1. HTML template
+2. Logic 
+3. Stlyling - CSS 
+
+- Initially when we create a project, as a starter we get a component under /src/app/ in which we have files like 
+/app.component.html
+/app.component.scss
+/app.component.ts --> This is where the heart lies. 
+
+In the ts file we write the logic under "export class" line of the code. We can create customised components using commands like 
+
+`ng generate component test`
+a shortcut for this can be 
+`ng g c test`
+g- generate 
+c-component 
+test is just the name of the component you would like to create 
+
+When we create the components, they get created under /src/folder - the folder is the one we created
+
