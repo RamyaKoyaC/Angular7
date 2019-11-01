@@ -7,16 +7,16 @@ In Command Line,
 #### 2 - How to create a new project? 
 `ng new ng7-pre`
 
-#### Angular will ask you questions like...
+#### 3 - Angular will ask you questions like...
 Would you like to add Angular routing? Yes
 Which stylesheet format would you like to use? SCSS
 
 --> You can enter any stylesheet format you want to. 
 
-#### Next, navigate to the folder of your project
+#### 4 - Next, navigate to the folder of your project
 
-#### Later, open any code editor to start working on changes
+#### 5 - Later, open any code editor to start working on changes
 
-#### To run the Angular Project on the localhost 
+#### 6 - To run the Angular Project on the localhost 
 `ng serve -o`
 
