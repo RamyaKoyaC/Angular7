@@ -42,3 +42,11 @@ test is just the name of the component you would like to create
 
 When we create the components, they get created under /src/folder - the folder is the one we created
 
+### how to check the current angular version using for your website or application/app?
+Simply type in the terminal 
+```
+ng --version
+```
+
+You will now see on terminal, the version of Angular you use. 
+
