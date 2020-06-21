@@ -60,3 +60,19 @@ selector: '[app-test]'
 1. Here we can simply use this app-test in the html by calling <app-test></app-test>
 2. For the 2nd one, we can use the as a class, <div class"app-test"> </div>
 3. For the 3rd way, we can use it as <div app-test> </div> 
+
+
+### Ways of writing a template in component
+Usually we write the template in the component decorator as 
+```
+templateUrl: '.test/test.component.html'
+```
+But to write template in the direct component file is by writing it as:
+```
+template: '<div> Inline Template </div>'
+```
+Because this is one line we were able to write in single quotes, we will use back stashes for this for multiple lines to be written
+
+```
+template:`<div> Inline Template </div>`
+```
