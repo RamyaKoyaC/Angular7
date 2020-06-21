@@ -50,3 +50,13 @@ ng --version
 
 You will now see on terminal, the version of Angular you use. 
 
+### ways to represent a selector in component.ts declared inside decorator: 
+
+``` 
+selector: 'app-test'
+selector: '.app-test'
+selector: '[app-test]'
+```
+1. Here we can simply use this app-test in the html by calling <app-test></app-test>
+2. For the 2nd one, we can use the as a class, <div class"app-test"> </div>
+3. For the 3rd way, we can use it as <div app-test> </div> 
