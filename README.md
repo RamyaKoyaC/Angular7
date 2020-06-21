@@ -76,3 +76,10 @@ Because this is one line we were able to write in single quotes, we will use bac
 ```
 template:`<div> Inline Template </div>`
 ```
+same can be done to styles as well 
+```
+styles: ` 
+div {
+color: red 
+}`
+```
